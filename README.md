@@ -2,7 +2,7 @@
 Developed OctoScope, a web application that provides instant GitHub profile and repository searches, featuring real-time, debounced autocomplete for optimized performance. Built with HTML, CSS, and JavaScript, its modern, responsive UI ensures smooth animations. The app utilizes Axios for efficient API communication and robust error handling, enhancing usability with a loading spinner, clickable autocomplete, and direct repository links.
 
 ## 🚀 Live Demo
-For a live demo: 
+For a live demo:- https://poorna-sai-sriharsha.github.io/OctoScope/
 
 ## 📸 Screenshots
 ![HashNest UI](OctoScope.png)
