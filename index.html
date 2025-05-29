@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OctoScope</title>
+    <!-- Google Fonts - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts - Fira Mono for heading -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+    <!-- Main Heading -->
+    <div class="main-heading">
+        <div class="main-title">OctoScope</div>
+        <div class="main-tagline">See Beyond the Code — Discover GitHub Developers Instantly.</div>
+    </div>
+    <!-- Search Form -->
+    <form class="search-form" id="form" autocomplete="off">
+        <input type="text" id="search" placeholder="Enter GitHub username" required>
+        <div id="autocomplete-list" class="autocomplete-list"></div>
+    </form>
+    <!-- Main Content (User Profile Card) -->
+    <main id="main"></main>
+    <!-- Footer -->
+    <div class="footer">
+        <span>&copy; 2025 OctoScope | Developed by Poorna Sai Sriharsha
+            <a href="https://www.linkedin.com/in/poorna-sai-sriharsha-perina/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin" style="color: #0A66C2;"></i></a>
+            <a href="https://github.com/Poorna-Sai-Sriharsha" target="_blank" title="GitHub"><i class="fab fa-github" style="color: #181717;"></i></a>
+        </span>
+    </div>
+    <!-- Axios for HTTP requests -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.9.0/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
