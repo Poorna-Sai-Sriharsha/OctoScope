@@ -5,7 +5,7 @@ Developed OctoScope, a web application that provides instant GitHub profile and 
 For a live demo:- https://poorna-sai-sriharsha.github.io/OctoScope/
 
 ## 📸 Screenshots
-![HashNest UI](OctoScope.png)
+![OctoScope UI](OctoScope.png)
 
 ## ✨ Features
 - ✅ Search GitHub users by username with real-time autocomplete suggestions.</br>
